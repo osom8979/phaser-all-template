@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    /* Projects */
+    "composite": true,
+    /* Completeness */
+    "skipLibCheck": true,
+    "types": [
+      "electron-vite/node"
+    ]
+  },
+  "include": [
+    "./electron.vite.config.ts",
+    "./vite.config.dev.ts",
+    "./vite.config.ts"
+  ]
+}
